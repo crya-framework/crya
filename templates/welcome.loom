@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>Welcome to {{ app_name }}!</title>
+    </head>
+
+    <body>
+        <h1>Welcome to {{ app_name }}!</h1>
+        <p>Start customizing your crya application.</p>
+    </body>
+</html>
