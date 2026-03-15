@@ -1,5 +1,5 @@
 from crya import Route
 
-from ..app.handlers import welcome
+from app.handlers import welcome
 
-Route.get("/welcome", welcome).name("welcome")
+Route.get("/", welcome).name("welcome")
