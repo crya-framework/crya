@@ -5,13 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "crya",
+    "crya>=0.1.0",
 ]
-
-[tool.uv.sources]
-crya = { git = "https://github.com/crya-framework/framework" }
 
 [dependency-groups]
 dev = [
     "pytest>=9.0.2",
 ]
+
+[tool.uv.sources]
+crya = { git = "https://github.com/crya-framework/framework" }

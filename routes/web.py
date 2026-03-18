@@ -1,5 +1,7 @@
-from crya import Route
+from crya import Router
 
 from app.handlers import welcome
 
-Route.get("/", welcome).name("welcome")
+router = Router()
+
+router.get("/", welcome).name("welcome")
